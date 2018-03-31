@@ -1,0 +1,26 @@
+{
+  "name": "testingtests",
+  "version": "1.0.0-alpha.1",
+  "description": "Just a basic repository to make some tests about tests using tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reginaldocmrg/testingtests.git"
+  },
+  "keywords": [
+    "Testing",
+    "tests"
+  ],
+  "author": "reginaldocmrg",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/reginaldocmrg/testingtests/issues"
+  },
+  "homepage": "https://github.com/reginaldocmrg/testingtests#readme",
+  "devDependencies": {
+    "jest": "^22.4.3"
+  }
+}
