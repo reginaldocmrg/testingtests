@@ -20,6 +20,23 @@ class Matrix {
 
         return matrix;
     }
+
+    add(m2) {
+        let m3 = new Matrix(this.row, this.column);
+
+        if(!m2 || !m2.data) {
+            throw 'WRONG_INFO';
+        }
+
+        m2.data.forEach((row, i) => {
+            m3.data[i] = [];
+            row.forEach((el, j) => {
+                m3.data[i][j] = this.data[i][j] + el;
+            });
+        })
+
+        return m3;
+    }
 }
 
 module.exports = Matrix;
