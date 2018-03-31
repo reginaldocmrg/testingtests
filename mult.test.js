@@ -11,5 +11,5 @@ test('tests parameters that are not a number', () => {
 });
 
 test('adds 1 + 2 to equal 3', () => {
-    expect(mult(5, 3)).toBe(3);
+    expect(mult(5, 3)).toBe(15);
 });
