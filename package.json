@@ -4,7 +4,7 @@
   "description": "Just a basic repository to make some tests about tests using tests",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --coverage"
   },
   "repository": {
     "type": "git",
