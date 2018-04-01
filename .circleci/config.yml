@@ -37,9 +37,8 @@ jobs:
       - run: npm test
 
       - store_artifacts:
-          path: target/jest-reports
-          destination: coverage
+          path: coverage
       - store_test_results:
-          path: target/jest-reports
+          path: coverage
 
 
