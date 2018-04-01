@@ -36,7 +36,10 @@ jobs:
       # run tests!
       - run: npm test
 
+      - store_artifacts:
+          path: target/jest-reports
+          destination: coverage
       - store_test_results:
-          path: coverage
+          path: target/jest-reports
 
 
